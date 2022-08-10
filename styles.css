@@ -1,0 +1,25 @@
+.carousel {
+    margin: auto;
+}
+
+@media (min-width: 992px) {
+    .carousel {
+        width: 80%;
+    }
+
+    .carousel-caption {
+        display:block;
+    }
+  }
+
+.project-desc {
+    display:none;
+}
+
+.d-block {
+    height: 800px;
+}
+
+.project-link:hover + div.d-none p {
+    display: block;
+}

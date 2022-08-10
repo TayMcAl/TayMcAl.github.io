@@ -13,13 +13,13 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Taylen McAlister</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#previous">Previous Work</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#previous">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -68,6 +68,56 @@
               </div>
             </div>
           </section>
+        <!-- Projects -->
+        <section class="page-section" id="projects">
+            <h1>Projects</h1>
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel" data-pause="hover">
+                <ol class="carousel-indicators">
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a class="project-link" href="https://github.com/TayMcAl/Tile-and-Stone" target="_blank">
+                            <img class="d-block w-100" src="PolarBear.jpg" alt="First Project in Carousel"></img>
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="project-title">Robinson Tile & Stone</h2>
+                            <p class="project-desc">Mockup created using HTML, CSS, and jQuery. The project was relatively simple in scope but aims to provide a general overview of their business, services offered, and logistics of setting up a consultation while also showcasing their previous work in order to attract a broader audience. The main attraction was the page's reactivity, particularly with how the images displayed and responded to user events.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a class="project-link" href="https://github.com/TayMcAl/HS-Grid" target="_blank">
+                            <img class="d-block w-100" src="PolarBear.jpg" alt="Second Project in Carousel"></img>
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="project-title">Raw CSS Grid Display</h2>
+                            <p class="project-desc">A simple exercise experimenting with CSS grid effects, multi-page navigation, navbars that can toggle, and dark-mode themed CSS. The primary goal was to create a grid that can dynamically respond as the window resizes in order to properly follow the mobile-first development approach.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a class="project-link" href="https://github.com/TayMcAl/Stats-Chats" target="_blank">
+                            <img class="d-block w-100" src="PolarBear.jpg" alt="Third Project in Carousel"></img>
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="project-title">Stats & Chats</h2>
+                            <p class="project-desc">A project created in C++ that will parse over any text fed to it and generate a hashtable of the individual word frequencies within the text. From there, these frequencies are used to train a Markov process which allows the program to synthesize a new text that maintains the input's word frequencies and uses certain phrases found within the input text.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Previous</span> 
+                </a>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span> 
+                 </a>
+            </div>
+        </section>
         <!-- Contact -->
         <section id="contact" class="page-section">
             <div class="col-12 col-lg-6 bg-white shadow p-3">
