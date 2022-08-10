@@ -2,6 +2,70 @@ label {
     display: none;
 }
 
+p, a {
+    font-family: "Work-Sans", sans-serif;
+}
+
+section {
+    padding-top: 2em;
+}
+
+h1 {
+    margin-bottom: 1.5em;
+}
+
+#projects {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+}
+
+#previous {
+    background-color: rgb(28, 28, 156);
+}
+
+#previous p,a {
+    color:var(--bs-light);
+    text-decoration: none;
+}
+
+#previous a:hover {
+    color:var(--bs-light);
+    border-bottom: 1px solid currentColor;
+    text-decoration: none;
+}
+
+a.text-white-link:hover {
+    color: blue;
+    border-bottom: 1px solid currentColor;
+    text-decoration: none;
+  }
+  
+#previous a:active {
+    color: var(--bs-dark);
+    border-bottom: 1px solid currentColor;
+  }
+
+#experience {
+    color: var(--bs-dark);
+}
+
+.btn-light {
+    margin-bottom: 0;
+}
+
+.further {
+    margin: 0;
+    padding:0;
+}
+
+.text-white {
+    color:var(--bs-light);
+}
+
+.text-faded {
+    color:var(--bs-gray);
+}
+
 .output {
     text-align: center;
 }
@@ -10,11 +74,24 @@ label {
     font-size: medium;
 }
 
+.project-title {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.project-desc {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+}
+
 .portrait {
     display: block;
     width:267px;
     height:267px;
-    margin: 0 auto 20px auto;
+    margin: 45px auto 20px auto;
     border-radius: 50%;
   }
 
@@ -25,7 +102,13 @@ label {
 @media (min-width: 992px) {
     .carousel {
         width: 80%;
-    }}
+    }
+
+    .btn-primary {
+        margin:0, 20em, 0, 20em;
+        padding:20em;
+    }
+}
 
 .carousel-caption {
     display:block;
