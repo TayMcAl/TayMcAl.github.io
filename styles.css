@@ -2,6 +2,10 @@ label {
     display: none;
 }
 
+.output {
+    text-align: center;
+}
+
 .modal-title {
     font-size: medium;
 }
@@ -21,12 +25,11 @@ label {
 @media (min-width: 992px) {
     .carousel {
         width: 80%;
-    }
+    }}
 
-    .carousel-caption {
-        display:block;
-    }
-  }
+.carousel-caption {
+    display:block;
+}
 
 .project-desc {
     display:none;
