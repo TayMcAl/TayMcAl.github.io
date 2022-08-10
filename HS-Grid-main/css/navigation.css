@@ -1,0 +1,85 @@
+/* Mobile First */
+nav {
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav li a, #toggle  {
+  text-decoration: none;
+  font-style:bold;
+  font-size:2em;
+  display:block;
+  color: #cccccc;
+  padding: 0.5rem 1rem 0rem 1rem;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+nav li a:hover, #toggle:hover  {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #303030;
+}
+
+.header {
+  margin-bottom: 0px;
+}
+
+.container {
+  margin-top: 30px;
+  transition: margin-top 500ms;
+}
+
+.margin {
+  margin-top: 210px;
+}
+
+/* Tablet Landscape Breakpoint */
+@media only screen and (min-width: 900px) {
+  header {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+
+  nav {
+    border-bottom: 0.1rem solid #726561;
+    margin-bottom:none;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav li a {
+    font-size:1em;
+    display:block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 0px;
+  }
+
+  .container {
+    margin-top: 0px;
+  }
+
+  .margin {
+    margin-top: 0px;
+  }
+}
