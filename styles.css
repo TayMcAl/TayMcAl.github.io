@@ -1,3 +1,11 @@
+.portrait {
+    display: block;
+    width:267px;
+    height:267px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+  }
+
 .carousel {
     margin: auto;
 }
