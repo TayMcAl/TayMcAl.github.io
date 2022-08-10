@@ -1,3 +1,11 @@
+label {
+    display: none;
+}
+
+.modal-title {
+    font-size: medium;
+}
+
 .portrait {
     display: block;
     width:267px;
